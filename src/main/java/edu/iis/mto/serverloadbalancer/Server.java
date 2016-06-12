@@ -11,8 +11,8 @@ public class Server
 		
 	}
 
-	public Matcher<? super String> contains(Vm theVm) 
+	public boolean contains(Vm theVm) 
 	{
-		return null;
+		return true;
 	}
 }
