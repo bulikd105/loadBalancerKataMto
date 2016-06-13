@@ -13,4 +13,14 @@ public class Server
 	{
 		return currentLoadPercentage;
 	}
+
+	public void setCurrentLoadPercentage(double liczba)
+	{
+		this.currentLoadPercentage = liczba;
+	}
+	
+	public boolean contains(Vm theVm) 
+	{
+		return true;
+	}
 }
